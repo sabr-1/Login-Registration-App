@@ -1,0 +1,97 @@
+object RegistrationPage: TRegistrationPage
+  Left = 0
+  Top = 0
+  Caption = 'Registration Form'
+  ClientHeight = 452
+  ClientWidth = 437
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object NameLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    Text = 'Name:'
+    TabOrder = 2
+    object NameInput: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      TextSettings.Font.Size = 20.000000000000000000
+      Position.X = 96.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object EmailLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    Text = 'Email:'
+    TabOrder = 1
+    object EmailInput: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      TextSettings.Font.Size = 20.000000000000000000
+      Position.X = 96.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object PasswordLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    Text = 'Password:'
+    TabOrder = 0
+    object PasswordInput: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Password = True
+      TextSettings.Font.Size = 20.000000000000000000
+      Position.X = 96.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object RegisterButton: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 152.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Register'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = RegisterButtonClick
+  end
+  object StatusLabel: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 48.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TabOrder = 6
+  end
+end
